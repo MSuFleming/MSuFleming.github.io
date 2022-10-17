@@ -1,147 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-	box-sizing: border-box;
-	overflow:auto;
-}
-
-.menu {
-	float: left;
-	width: 25%;
-	text-align: center;
-}
-
-.menu a {
-	background-color: #c0c0c0;
-	padding: 10px;
-	margin-top: 15px;
-	display: block;
-	width: 100%;
-	color: black;
-}
-
-.main {
-	float: left;
-	width: 75%;
-	padding: 0 20px;
-}
-
-#title {
-	background-color:#c0c0c0;
-	padding:10px;
-	text-align:center;
-}
-
-#header {
-	background-color:#c0c0c0;
-	padding:5px;
-	text-align:center;
-}
-
-.footer {
-	margin-top: auto;
-	width:100%;
-	bottom: 0;
-	background-color:#c0c0c0;
-	text-align:center;
-	margin-top:15px;
-	padding: 10px;
-}
-
-aside {
-
-	float: right;
-	background-color: lightgray;
-	width: 300px;
-}
-
-h1 {
-	color:black;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 2.5em;
-	font-weight: bold;
-}
-
-h2 {
-	color:IndianRed;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 1.7em;
-}
-
-h3 {
-	background-color:MediumSeaGreen; 
-	color:black;
-	width:300px;
-}
-
-p1 {
-	color:black;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 1em;
-}
-
-th {
-	text-align:left;
-}
-
-tr{
-color:black;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 1em;
-}
-
-a:visited {
-	color: #000080;
-	background-color: transparent;
-	text-decoration: none;
-}
-a:hover {
-	color: skyblue;
-	background-color: transparent;
-	text-decoration: underline;
-}
-/* 照片*/
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-.responsive {
-    float: left;
-	width: 20%;
-	padding: 15px;
-	max-width: 300px;
-	margin-top: 7px;
-	
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 50%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-/* 照片*/
-
-@media only screen and (max-width: 620px) {
-	/*For mobile phones: */
-	.menu, .main, .right; 
-	width: 100%;
-}
-
-</style>
+<link rel="StyleSheet" href="StyleSheet.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -175,21 +35,20 @@ div.desc {
     <tr><th>Agent:</th><td>Fleming College</td></tr>
 </table>		  
 
-	<b>Error of Collimation: the level (instrument) is not level2. Curvature of the Earth: oblate spheroid
-3. Refraction of light rays: bending in poor optics
-4. Levelling rod not plumb: left or right lean
-5. Level rod not perpendicular: towards or away
-6. Parallax: position of object differs from eye to eye (i.e. where you view it from)
-7. Unstable ground: mud, swampy
-8. Wind (and other harsh weather)
-9. Direct sunlight: sun can obscure targError of Collimation: the level (instrument) is not level2. Curvature of the Earth: oblate spheroid
-3. Refraction of light rays: bending in poor optics
-4. Levelling rod not plumb: left or right lean
-5. Level rod not perpendicular: towards or away
-6. Parallax: position of object differs from eye to eye (i.e. where you view it from)
-7. Unstable ground: mud, swampy
-8. Wind (and other harsh weather)
-9. Direct sunlight: sun can obscure targ</b>
+	<b>Definition and Usage
+The required src attribute specifies the URL of the image.
+
+There are two ways to specify the URL in the src attribute:
+
+1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+
+Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+
+2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+Tip: It is almost always best to use relative URLs. They will not break if you change domain.
+
+Note: A broken link icon and the alt text are shown if the browser cannot find the image. </b>
 
 
 <div id = "2"><h3>Contract Information</h3></div>
@@ -202,7 +61,7 @@ div.desc {
 
 
 
-<div id = "3"><h3>Transfer History & Map</h3></div>
+<div id = "3"><h3>Transfer History & Maps</h3></div>
 <table>
 	<tr><td>&#128747;Player transferred from Pearson Airport to Port Credit GO Train Station on September 1, 2018</td></tr>
 	<tr><td>&#128747;Player transferred from Credit GO Train Station to Brock University on September 2, 2018</td></tr>
@@ -211,20 +70,20 @@ div.desc {
 
 <div class = "responsive">
 	<div class = "gallery">  
-	<img url("
-https://maps.googleapis.com/maps/api/staticmap?center=43.6408043,-78.9724611&zoom=8&size=300x450&path=color:0xFF0000%7Cweight:5%7C44.3248292,-78.7401372%7C43.1194721,-79.2456436&markers=color:black%7Clabel:B%7C43.1194721,-79.2456436&markers=size:tiny&markers=color:black%7Clabel:F%7C44.3248292,-78.7401372&markers=size:tiny&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE"); width="300" height="450
-title="
-Transfer Map3"
-alt="Image lost? Go here:
-https://maps.googleapis.com/maps/api/staticmap?center=43.6408043,-78.9724611&zoom=8&size=300x450&path=color:0xFF0000%7Cweight:5%7C44.3248292,-78.7401372%7C43.1194721,-79.2456436&markers=color:black%7Clabel:B%7C43.1194721,-79.2456436&markers=size:tiny&markers=color:black%7Clabel:F%7C44.3248292,-78.7401372&markers=size:tiny&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE">
+	<img src="
+https://maps.googleapis.com/maps/api/staticmap?center=43.6163817,-79.5943933&zoom=11&size=300x450&path=color:0xFF0000%7Cweight:5%7C43.6829000,-79.6132084%7C43.5560609,-79.5867446&markers=color:black%7Clabel:A%7C43.6829000,-79.6132084&markers=size:tiny&markers=color:black%7Clabel:P%7C43.5560609,-79.5867446&markers=size:tiny&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE"width="300" height="450
+title="Transfer Map1">
+	<img src="
+https://maps.googleapis.com/maps/api/staticmap?center=43.336998,-79.458132&zoom=9&size=300x450&path=color:0xFF0000%7Cweight:5%7C43.5560609,-79.5867446%7C43.1194721,-79.2456436&markers=color:black%7Clabel:B%7C43.1194721,-79.2456436&markers=size:tiny&markers=color:black%7Clabel:P%7C43.5560609,-79.5867446&markers=size:tiny&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE" width="300" height="450
+title="Transfer Map2">
+	<img src="
+https://maps.googleapis.com/maps/api/staticmap?center=43.6408043,-78.9724611&zoom=8&size=300x450&path=color:0xFF0000%7Cweight:5%7C44.3248292,-78.7401372%7C43.1194721,-79.2456436&markers=color:black%7Clabel:B%7C43.1194721,-79.2456436&markers=size:tiny&markers=color:black%7Clabel:F%7C44.3248292,-78.7401372&markers=size:tiny&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE" width="300" height="450
+title="Transfer Map3">
 	</div>
 </div>
 
 </div>
 <b><a href = "#totop">Back to the top</a></b>               
-
-
-
 
 <div class = "footer">
 	<b>Told you, it is a fake website</b>
@@ -232,4 +91,3 @@ https://maps.googleapis.com/maps/api/staticmap?center=43.6408043,-78.9724611&zoo
 
 </body>
 </html>
-
