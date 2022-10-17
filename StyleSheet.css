@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+	overflow:auto;
+}
+
+.menu {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.menu a {
+	background-color: #c0c0c0;
+	padding: 10px;
+	margin-top: 15px;
+	display: block;
+	width: 100%;
+	color: black;
+}
+
+.main {
+	float: left;
+	width: 75%;
+	padding: 0 20px;
+}
+
+#title {
+	background-color:#c0c0c0;
+	padding:10px;
+	text-align:center;
+}
+
+#header {
+	background-color:#c0c0c0;
+	padding:5px;
+	text-align:center;
+}
+
+.footer {
+	margin-top: auto;
+	width:100%;
+	bottom: 0;
+	background-color:#c0c0c0;
+	text-align:center;
+	margin-top:15px;
+	padding: 10px;
+}
+
+aside {
+
+	float: right;
+	background-color: lightgray;
+	width: 300px;
+}
+
+h1 {
+	color:black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+h2 {
+	color:IndianRed;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.7em;
+}
+
+h3 {
+	background-color:MediumSeaGreen; 
+	color:black;
+	width:300px;
+}
+
+p1 {
+	color:black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+}
+
+th {
+	text-align:left;
+}
+
+tr{
+color:black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+}
+
+a:visited {
+	color: #000080;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: skyblue;
+	background-color: transparent;
+	text-decoration: underline;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.responsive {
+    float: left;
+	width: 20%;
+	padding: 15px;
+	max-width: 300px;
+	margin-top: 7px;	
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 620px) {
+	/*For mobile phones: */
+	.menu, .main, .right; 
+	width: 100%;
+}
