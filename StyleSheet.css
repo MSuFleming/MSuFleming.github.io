@@ -15,7 +15,6 @@
 	margin-top: 15px;
 	display: block;
 	width: 100%;
-	color: black;
 }
 
 .main {
@@ -42,8 +41,8 @@
 	bottom: 0;
 	background-color:#c0c0c0;
 	text-align:center;
-	margin-top:15px;
-	padding: 10px;
+	margin-top:1px;
+	padding:1px;
 }
 
 aside {
@@ -64,6 +63,7 @@ h2 {
 	color:IndianRed;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.7em;
+	text-align: center;
 }
 
 h3 {
@@ -72,7 +72,7 @@ h3 {
 	width:300px;
 }
 
-p1 {
+p {
 	color:black;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1em;
@@ -89,7 +89,7 @@ color:black;
 }
 
 a:visited {
-	color: #000080;
+	color: #CD5C5C;
 	background-color: transparent;
 	text-decoration: none;
 }
