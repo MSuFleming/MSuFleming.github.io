@@ -1,8 +1,9 @@
+/*set boxes layout*/
 * {
 	box-sizing: border-box;
 	overflow:auto;
 }
-
+/*determine the percentage of menu and main body, from w3school, modify specific number to fit my content*/
 .menu {
 	float: left;
 	width: 25%;
@@ -22,7 +23,9 @@
 	width: 75%;
 	padding: 0 20px;
 }
+/*layout end*/
 
+/* set title, header and footer width, height and color*/
 #title {
 	background-color:#c0c0c0;
 	padding:10px;
@@ -44,14 +47,9 @@
 	margin-top:1px;
 	padding:1px;
 }
+/* title, header and footer end*/
 
-aside {
-
-	float: right;
-	background-color: lightgray;
-	width: 300px;
-}
-
+/*font, size, style setting*/
 h1 {
 	color:black;
 	font-family: "Times New Roman", Times, serif;
@@ -77,7 +75,9 @@ p {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1em;
 }
+/*font, size, style end*/
 
+/*set table layout*/
 th {
 	text-align:left;
 }
@@ -87,7 +87,9 @@ color:black;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1em;
 }
+/* table layout end*/
 
+/* link style modify, from w3school, change color*/
 a:visited {
 	color: #CD5C5C;
 	background-color: transparent;
@@ -98,6 +100,9 @@ a:hover {
 	background-color: transparent;
 	text-decoration: underline;
 }
+/* link end*/
+
+/* image size and dynamic image setting，responsive design copied from w3school, change value and layout to fit my maps and website*/
 div.gallery img {
   width: 100%;
   height: auto;
@@ -114,7 +119,9 @@ div.desc {
 	max-width: 300px;
 	margin-top: 7px;	
 }
+/* image setting end*/ 
 
+/*responsive desgin for the whole website, copied from w3school, modify value*/ 
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 50%;
